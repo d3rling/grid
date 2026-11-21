@@ -1,0 +1,12 @@
+.parent {
+    display: grid;
+    border: 2px solid black;
+    padding: 10px;
+    width: 600px;
+    grid-template-columns: 100px 20% 1fr 2fr 4fr;
+}
+
+.parent > div {
+    border: 1px solid black;
+    padding: 10px;
+}

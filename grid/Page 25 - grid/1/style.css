@@ -1,0 +1,11 @@
+.parent {
+    display: grid;
+    border: 2px solid black;
+    width: 400px;
+    grid-template-columns: 200px 200px;
+    padding: 10px;
+}
+.parent > div {
+    padding: 10px;
+    border: 1px solid black;
+}
